@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormRoutingModule } from './form-routing.module';
 import { FormComponent } from './form.component';
+import { TruckComponentFormComponent } from 'src/app/components';
+
 
 
 
@@ -11,7 +13,8 @@ import { FormComponent } from './form.component';
   ],
   imports: [
     CommonModule,
-    FormRoutingModule
+    FormRoutingModule,
+    TruckComponentFormComponent
   ]
 })
 export class FormModule { }
