@@ -5,8 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
-import { PeopleTableComponent, TruckComponentFormComponent } from './components';
-import { HomeComponent } from './modules';
 
 @NgModule({
   declarations: [
